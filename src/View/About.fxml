@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TextArea editable="false" layoutY="64.0" prefHeight="217.0" prefWidth="600.0" text="                                                                          Our Maze:&#10;&#10;Hey, we are Itamar Bliman and Daniel Samira and we are the programmers of this creation.&#10;This maze is generated with our version of maze generating algorithm based on Prim's algorithm.&#10;The options of solving the maze are with 3 different algorithms based on the searching algorithms: &#10;- Best First Search&#10;- Breadth First Search&#10;- Depth First Search&#10;&#10;The mazes are being compressed and decompressed during the program for utilizing the load and save&#10;operations by our methods.&#10;A log file is being saved in order to document the program's events during runtime." />
+        <Label layoutX="265.0" layoutY="11.0" prefHeight="49.0" prefWidth="83.0" text="About" />
+    </children>
+</AnchorPane>

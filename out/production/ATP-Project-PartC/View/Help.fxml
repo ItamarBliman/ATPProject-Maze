@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HelpController">
+   <children>
+      <TextArea editable="false" layoutY="77.0" prefHeight="158.0" prefWidth="600.0" text="                                                                   Welcome to our Maze!&#10;&#10;Marco has stopped receiving letters from his beloved mother and has just started to look for her in Argentina. &#10;Together with his monkey, he needs your help in finding her.&#10;In order to find his mom, he needs you to find a path from the starting point in Italy to the goal point&#10;in Argentina where his mom is at.&#10;&#10;Marco can't walk on sea tiles                     and can go in any direction using the keyboard:" />
+      <Label layoutX="259.0" layoutY="14.0" prefHeight="49.0" prefWidth="83.0" text="Program Help" />
+      <Label layoutX="144.0" layoutY="277.0" prefHeight="32.0" prefWidth="275.0" text="Please help Marco                    to find his Mama" />
+      <ImageView fx:id="imageNumbers" fitHeight="91.0" fitWidth="90.0" layoutX="496.0" layoutY="188.0" />
+      <ImageView fx:id="imageWater" fitHeight="40.0" fitWidth="43.0" layoutX="173.0" layoutY="188.0" />
+      <ImageView fx:id="imageMarco" fitHeight="49.0" fitWidth="50.0" layoutX="239.0" layoutY="263.0" />
+      <ImageView fx:id="imageMom" fitHeight="49.0" fitWidth="57.0" layoutX="393.0" layoutY="269.0" />
+   </children>
+</AnchorPane>

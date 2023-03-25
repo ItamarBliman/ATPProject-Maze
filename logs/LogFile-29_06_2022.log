@@ -1,0 +1,7 @@
+2022-06-29 10:10:24 [Thread-3] INFO  Server.ServerStrategyGenerateMaze - Starting server at port = 5400
+2022-06-29 10:10:24 [Thread-4] INFO  Server.ServerStrategySolveSearchProblem - Starting server at port = 5401
+2022-06-29 10:10:31 [Thread-3] INFO  Server.ServerStrategyGenerateMaze - Client accepted: Socket[addr=/132.73.199.107,port=64381,localport=5400] to server - IP = LAPTOP-C55OTJ2D/132.73.199.107, Port = 5400
+2022-06-29 10:10:31 [pool-2-thread-1] INFO  Server.ServerStrategyGenerateMaze - Maze with dimensions of [10,10] was generated for client: Socket[addr=/132.73.199.107,port=64381,localport=5400]
+2022-06-29 10:10:31 [pool-2-thread-1] INFO  Server.ServerStrategyGenerateMaze - Done handling client: Socket[addr=/132.73.199.107,port=64381,localport=5400]
+2022-06-29 10:11:11 [JavaFX Application Thread] INFO  Server.ServerStrategyGenerateMaze - Stopping server...
+2022-06-29 10:11:11 [JavaFX Application Thread] INFO  Server.ServerStrategySolveSearchProblem - Stopping server...
